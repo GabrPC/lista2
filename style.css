@@ -1,0 +1,186 @@
+/* Resetando margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o fundo da página */
+body {
+    background-color: #012E40; /* Tom escuro de azul como cor dominante */
+    font-family: Arial, sans-serif;
+    color: #F2E3D5; /* Texto claro para contraste */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #024959; /* Tom mais escuro de azul */
+    color: #F2E3D5; /* Texto claro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F2E3D5;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #3CA6A6; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilo da imagem de perfil */
+#integrantes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Faz a imagem ficar arredondada */
+    border: 5px solid #F2E3D5; /* Borda clara ao redor da imagem */
+    margin-bottom: 20px;
+}
+
+/* Seção dos Integrantes */
+#integrantes {
+    background-color: #024959;
+    color: #F2E3D5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#integrantes h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#integrantes ul {
+    list-style: none;
+}
+
+#integrantes ul li {
+    margin-bottom: 5px;
+}
+
+#integrantes a {
+    color: #3CA6A6;
+}
+
+#integrantes a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de Tarefas */
+#tarefas {
+    background-color: #026773;
+    color: #F2E3D5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#tarefas h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #F2E3D5; /* Borda clara para a tabela */
+}
+
+th {
+    background-color: #024959; /* Cor escura para o cabeçalho da tabela */
+    color: #F2E3D5;
+}
+
+td {
+    background-color: #3CA6A6; /* Cor clara para as células de dados */
+    color: #012E40; /* Texto escuro para contraste */
+}
+
+tr:nth-child(even) td {
+    background-color: #3CA6A6; /* Linhas alternadas com fundo claro */
+}
+
+tr:nth-child(odd) td {
+    background-color: #1C8394; /* Linhas alternadas com fundo um pouco mais escuro */
+}
+
+/* Seção Sobre o Projeto */
+#sobre {
+    background-color: #024959;
+    color: #F2E3D5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Seção Sobre Mim */
+#sobre-mim {
+    background-color: #026773;
+    color: #F2E3D5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#sobre-mim h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#sobre-mim p {
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #024959;
+    color: #F2E3D5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Estilos gerais de links */
+a {
+    color: #3CA6A6;
+}
+
+a:hover {
+    color: #1C8394;
+    text-decoration: underline;
+}
+
